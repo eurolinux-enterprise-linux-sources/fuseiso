@@ -1,7 +1,7 @@
 Name:		fuseiso
 Summary:	FUSE support for ISO filesystem images
 Version:	20070708
-Release:	13%{?dist}
+Release:	15%{?dist}
 License:	GPLv2+
 Group:		System Environment/Base
 Source0:	http://ubiz.ru/dm/%{name}-%{version}.tar.bz2
@@ -38,6 +38,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/fuseiso
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 20070708-15
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20070708-14
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20070708-13
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
